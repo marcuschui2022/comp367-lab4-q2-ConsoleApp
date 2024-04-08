@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8nZZN8UhkzSNYqrCgvzYEjwRFISODtc4bZpA6tWqX+cblzTB0nvQZBoLP3CBzO1/eNjWBDUuC02uzmG4wCiRQw==",
+  "dgSpecHash": "iKIap8TZSMWg0/ajnxORi8Q6RIVxLOpXQTZLypmoIG1xKFItYirUY/5bXw9zaGP3F1kuSZW/RyW3+YMkktBjYw==",
   "success": true,
   "projectFilePath": "Z:\\lab4\\comp367-lab4-q2-ConsoleApp\\comp367-lab4-q2-ConsoleApp\\comp367-lab4-q2-ConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marcus\\.nuget\\packages\\stringlibrary\\1.0.0\\stringlibrary.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("comp367-lab4-q2-ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e86fdce2eab5c1c5189669c1a574be39b9e8f0fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("comp367-lab4-q2-ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("comp367-lab4-q2-ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

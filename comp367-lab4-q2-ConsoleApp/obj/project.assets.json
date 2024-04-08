@@ -1,11 +1,35 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "StringLibrary/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/StringLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/StringLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StringLibrary/1.0.0": {
+      "sha512": "o47vDpgtPhGczflcHXAYLF6/Quh8QWt0Sm1DHed40p1ke1pHNrHqgUSDZul0wShjT5LU2iF4gFArIAe+u+S8ug==",
+      "type": "package",
+      "path": "stringlibrary/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/StringLibrary.dll",
+        "stringlibrary.1.0.0.nupkg.sha512",
+        "stringlibrary.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "StringLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\marcus\\.nuget\\packages\\": {}
@@ -29,7 +53,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/kchui8/_packaging/kchui8/nuget/v3/index.json": {}
+        "https://pkgs.dev.azure.com/kchui8/Lab4-Q2/_packaging/Lab4-Feed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -51,6 +75,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "StringLibrary": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
